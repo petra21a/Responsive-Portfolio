@@ -142,14 +142,14 @@ float:left;
 .entry{
     margin-left: 20px;
     margin-right: 20px;
-    width:925;
+    width:90%;
     color: #777;
 }
 
 .message{
     margin-left: 20px;
     margin-right: 20px;
-    width:925;
+    width:90%;
     min-height: 120px;
     color: #777;
     overflow:auto;
@@ -195,11 +195,18 @@ float:left;
     }
     .main{
         margin: 20px 12px 60px 12px;
-        width: auto;
+        width: 100%;
         float: left;
     }
     .menu{
         margin: 12px auto 12px auto;  
+    }
+    .entry{
+        width:90%;
+    }
+    
+    .message{
+        width:90%;
     }
 }
 
